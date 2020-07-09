@@ -3,16 +3,188 @@
   <head>
     <meta charset="UTF-8">
     <title>My Portfolio</title>
+    
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
+
+	<link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
   </head>
   <body>
-    <div id="content">
-      <h1>My Portfolio</h1>
-      <p>This is my portfolio.</p>
-      <p>Click here to get a random message:</p>
-      <button onclick="addRandomGreeting()">Hello</button>
-      <div id="greeting-container"></div>
-    </div>
+    <nav class="nav container void-background">
+			<div class="nav-left">
+				<a href="https://github.com/Kirti2502" class="nav-item">
+					<span class="icon">
+						<i class="fa fa-github"></i>
+					</span>
+				</a>
+				<a href="https://www.linkedin.com/in/kirti-rohira-b84630154/" class="nav-item">
+					<span class="icon">
+						<i class="fa fa-linkedin"></i>
+					</span>
+				</a>
+                <a href = "mailto: krohira@sps-program.com" class="nav-item">
+                    <span class="icon">
+                        <i class="fa fa-google"></i>   
+                    </span>    
+                </a>				
+			</div>
+			<div class="nav-right nav-menu">
+				<a class="nav-item" href="#about">About</a>
+                <a class="nav-item" href="#experience">Experience</a>
+				<a class="nav-item" href="#projects">Projects</a>
+				<a class="nav-item" href="#contact">Contact</a>
+			</div>
+		</nav>
+        <section id="about" class="section section-1">
+			<div class="container has-text-centered">
+				<img class="avatar" src="assets/Kirtipic.jpeg">
+			</div>
+			<div class="container"></br>
+				<p class="intro">
+					I am Kirti Rohira, a final-year student at IIT(ISM) Dhanbad. I am a web-developer at the technical club of our institute and have done multitude of projects as a part of cross-domain teams.
+                    I can provide a fresh take and an extraordinary approach to every project. I am always open to challenges and constructive feedback. 
+                    I am open-minded and learn new things quickly. I want to become a team player and dedicate all my skills and talents to develop high-quality and unique products.
+				</p>
+			</div>
+		</section>
+        <section id="experience" class="section section-4">
+            <div class="container">
+                <div class="has-text-centered">
+                    <h3 class="title is-3">Experience</h3>
+                </div>
+
+            <div class="columns is-multiline is-desktop">
+                <div class="column">
+                    <div class="box project-text">
+                        <article>
+                            <div>
+                                <figure class="image project-figure">
+                                    <!-- <span class="icon">
+                                        <a href="#">
+						                    <img src="assets/kutuki.jpeg" />
+                                        </a>
+					                </span> -->
+                                    <p>Soniqmantra(Kutuki)</p>
+                                </figure>
+                            </div>
+                            <div>			
+                                <ul>
+                                    <li>
+                                        Built a user-friendly website to be used by the organization to upload and manage all the various types of data.
+                                        It reduced the efforts of the content creators by reducing a 5-step process into a single step. Also made the
+                                        procedure time-efficient and error free.
+                                    </li>
+                                    <li>
+                                        Created external APIs to be used by MI Videos . Also developed a website for the verification of all the external
+                                        organizations using JSON Web Tokens. It made the API request for the content access secure and reduced the
+                                        work of sending API keys to individual organizations manually.
+                                    </li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="columns is-multiline is-desktop">
+                    <div class="column">
+                        <div class="box project-text">
+                            <article>
+                                <div>
+                                    <figure class="image project-figure">
+                                        <p>JobBox</p>
+                                    </figure>
+                                </div>
+                                <div>			
+                                    <ul>
+                                        <li>
+                                            Led a team of 3 employees. Prototyped the product from scratch in 2 months and released the first version of the project.
+                                        </li>
+                                        <li>
+                                            Designed and developed a dynamic and interactive job portal with a login and registration system along with
+                                            the functionality to apply for jobs, search jobs and create a user profile.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section  id="projects" class="section section-2">
+			<div class="container">
+				<div class="has-text-centered">
+					<h3 class="title is-3">Projects</h3>
+				</div>
+				
+				<div class="columns is-multiline is-desktop">
+					<div class="column">
+						<div class="box project-text">
+							<article>
+								<div>
+									<figure class="image project-figure">
+										<a href="https://github.com/Kirti2502/cdc-website">
+                                            <span class="icon">
+						                        <i class="fa fa-github"></i>
+					                        </span>
+                                        </a>
+                                        <a href="https://cdc-iitism.netlify.com/">Project Link</a>
+									</figure>
+								</div>
+								<div>			
+									<p>
+										Developed a user-friendly and responsive website, including registration portal for companies which made the
+                                        recruitment process easier and faster. Implemented a portal for connection with the alum of the institute which
+                                        further strengthened the alumni base.
+									</p>
+								</div>
+							</article>
+						</div>
+					</div>
+					
+					<div class="column">
+						<div class="box project-text">
+							<article>
+								<div>
+									<figure class="image project-figure">
+										<a href="https://github.com/Kirti2502/winterofcode18">
+                                            <span class="icon">
+						                        <i class="fa fa-github"></i>
+					                        </span>
+                                        </a>
+                                        <a href="https://cdc-iitism.netlify.com/">Project Link</a>
+									</figure>
+								</div>
+								<div>			
+									<p>
+										Created a dynamic and interactive website that served as a platform for technology enthusiasts to come together and
+                                        contribute to tools that solve real-life problems.The webiste led to an increase in the number of sponsor oragnisations
+                                        of the event.
+									</p>
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+        <section id="social" class="section section-3">
+			<div class="container">
+				<div class="has-text-centered">					
+					<h3 class="title is-3">Let's Socialize</h3>
+				</div>
+				<div class="social-container columns">
+					<div class="column is-6 has-text-centered">
+						<a target="_blank" href="https://www.instagram.com/kirti_rohira_/?hl=en"><img class="contact-images" src="assets/instagram.webp"></a>
+					</div>
+					<div class="column is-6 has-text-centered">
+						<a target="_blank" href="https://www.facebook.com/kirti.rohira.3/"><img class="contact-images" src="assets/facebook.png"></a>
+					</div>
+				</div>
+			</div>
+		</section>	
   </body>
 </html>
