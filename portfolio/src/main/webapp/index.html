@@ -185,6 +185,19 @@
 					</div>
 				</div>
 			</div>
-		</section>	
+		</section>
+        <section>
+            <div>
+                <button onClick="getComments()">View Comments</button>
+                <br />
+                <ul id="message"></ul>
+                <form action="/add-comment" method="POST">
+                    <p>Name: <input type="text" name="username"></p>
+                    <p>Comment: <input type="text" name="message"></p>
+                    <br />
+                    <button type="submit">Post</button>
+                </form>
+            </div>    
+        </section>	
   </body>
 </html>
